@@ -45,7 +45,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
   and what it showed you about your code.
   - Every time I fixed a bug/glitch, I reran the program to make it works. 
 - Did AI help you design or understand any tests? How?
-  - I didn't use AI to design any test. 
+  - I used it to correct testing for guess logic and it explained the starter code had a bug with object mismatch and helped me refactor it.  
 
 ---
 
