@@ -16,6 +16,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 3. Also, the range for normal and hard level feels off. Hard should be bigger range than normal, so requires more guesses. 
 
+4. Changing diffculty level doesn't generate a new scrent key, which it should as the range changes. We could do that by starting new game when diffuclty level is changed. 
+
 ---
 
 ## 2. How did you use AI as a teammate?
@@ -28,6 +30,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
     ![AI's Suggestions for Backward Hints](image-1.png)
 
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+  - This isn't really a wrong suggestion, but it didn't recognize a more efficient fix with one "if" statement and "or" condition. 
 
 ---
 
