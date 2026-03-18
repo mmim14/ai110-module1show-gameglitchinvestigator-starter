@@ -12,7 +12,9 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 1. The hints were backwards. Entering less than secret would give hint go lower and entering higher than would hint go higher. Also, I want to see the message enter a number from 1 to 100 when a number enter out of bound (1-100).
 
-2. New Game doesn't reset the score. The score looks a bit weird. Choosing a harder difficulty gives lower score than normal. Also, the range for normal and hard level feels off. Hard should be bigger range than normal, so requires more guesses. 
+2. New Game doesn't reset the score. The score looks a bit weird; guessing correct results lower/negative score. Choosing a harder difficulty gives lower score than normal. 
+
+3. Also, the range for normal and hard level feels off. Hard should be bigger range than normal, so requires more guesses. 
 
 ---
 
@@ -22,7 +24,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
   - We used Claude
 
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
-  - 
+  - The AI was able to analyze why the hint was wrong and fix it 
+    ![AI's Suggestions for Backward Hints](image-1.png)
 
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
