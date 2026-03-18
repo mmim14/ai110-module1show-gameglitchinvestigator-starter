@@ -23,15 +23,15 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
-  - We used Claude
+  - We used Claude and I used Copilot for a bit. 
 
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
-  - The AI was able to analyze why the hint was wrong and fix it 
+  - The AI was able to analyze why the hint was wrong and fix it. 
     ![AI's Suggestions for Backward Hints](image-1.png)
 
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
   - This isn't really a wrong suggestion, but it didn't recognize a more efficient fix with one "if" statement and "or" condition. 
-  - I found an actual error. I wanted to generate a new secret if difficulty is changed and the code it suggested started attempt at 1 when it should be zero
+  - I found an actual error. I wanted to generate a new secret if difficulty is changed and the code it suggested started attempt at 1 when it should be zero.
     - ![alt text](image-3.png)
     - Here's the follow up response from AI: ![alt text](image-4.png)
 
@@ -40,15 +40,19 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
+  - I tested the code manually. 
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
+  - Every time I fixed a bug/glitch, I reran the program to make it works. 
 - Did AI help you design or understand any tests? How?
+  - I didn't use AI to design any test. 
 
 ---
 
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+  - I would explain reruns as restarting your computer where all your apps are closed and your computer start from default state. I would describe session state as like a form that allows you to save your response and continue later and has the option to start over. It saves your work and once you log back in, it continues from there. However, if you start over, all your data is gone and you have to start from the beginning (default state). 
 
 ---
 
