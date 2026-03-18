@@ -60,8 +60,11 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+  - The refactoring was really useful and AI did an amazing job cleaning out the code. 
 - What is one thing you would do differently next time you work with AI on a coding task?
+  - I would first understand the logic of the code myself and use the AI for explanation before I ask it to explain the code so that I understand what I am dealing with. 
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+  - AI generated could miss the context if you don't specifically mention in the prompt and generate less efficient code.
 
 - I used two AI Pair Programming tools (Claude and GitHub Copilot). Both gave good explanation, but Claude was more concise. 
 
