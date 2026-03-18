@@ -48,7 +48,8 @@ It wrote the code, ran away, and now the game is unplayable.
 3. New Game doesn't reset the score. The score looks a bit weird; guessing correct results lower/negative score. Choosing a harder difficulty gives lower score than normal. 
    - I reset the score to deafult (0) when a new game is started with the help of Claude. The code was adding +5 on high guesses on even attempts and subtracting 5 on odd attempts which is illogical. Wrong guess should take away points. I will deduct 5 points for either lower or higher guess. 
 
-4. Changing diffculty level doesn't generate a new secret, which it should as the range changes, but it shows the difficulty level to be the new level. We could do that by starting new game when diffuclty level is changed. 
+4. Changing diffculty level doesn't generate a new secret, which it should as the range changes, but it shows the difficulty level to be the new level. We could do that by starting new game when diffuclty level is changed.
+   - 
 
 ## 📸 Demo
 

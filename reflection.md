@@ -31,6 +31,9 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
   - This isn't really a wrong suggestion, but it didn't recognize a more efficient fix with one "if" statement and "or" condition. 
+  - I found an actual error. I wanted to generate a new secret if difficulty is changed and the code it suggested started attempt at 1 when it should be zero
+    - ![alt text](image-3.png)
+    - Here's the follow up response from AI: ![alt text](image-4.png)
 
 ---
 
