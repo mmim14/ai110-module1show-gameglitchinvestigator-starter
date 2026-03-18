@@ -25,10 +25,15 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
+- [ ] Describe the game's purpose. 
+      - The game is to guess a secret number within a range given by the difficulty level. 
 - [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+1. The hints were backwards. Entering less than secret would give hint go lower and entering higher than would hint go higher. Also, I want to see the message enter a number from 1 to 100 when a number enter out of bound (1-100).
 
+2. New Game doesn't reset the score. The score looks a bit weird. Choosing a harder difficulty gives lower score than normal. Also, the range for normal and hard level feels off. Hard should be bigger range than normal, so requires more guesses. 
+
+- [ ] Explain what fixes you applied.
+   - 
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]

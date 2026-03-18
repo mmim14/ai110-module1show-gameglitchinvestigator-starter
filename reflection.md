@@ -5,15 +5,25 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+    - The game wasn't working correctly. The hint was wrong and entering a lower than hint would give the hint to go higher and choosing a number higher than secret would say to go higher. 
+    
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
+
+1. The hints were backwards. Entering less than secret would give hint go lower and entering higher than would hint go higher. Also, I want to see the message enter a number from 1 to 100 when a number enter out of bound (1-100).
+
+2. New Game doesn't reset the score. The score looks a bit weird. Choosing a harder difficulty gives lower score than normal. Also, the range for normal and hard level feels off. Hard should be bigger range than normal, so requires more guesses. 
 
 ---
 
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+  - We used Claude
+
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+  - 
+
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
 ---
